@@ -198,9 +198,12 @@ cat > ${script_dir}/namelist_${exp}.echam << EOF
   scale_wetdep_bc = V_SCALE_WETDEP_BC     ! V_SCALE_WETDEP_BC
   scale_wetdep_bc_bc_only = V_SCALE_WETDEP_BC_BC_ONLY  ! V_SCALE_WETDEP_BC_BC_ONLY
   bc_rad_ni = V_SCALE_BC_RAD_NI  ! V_SCALE_BC_RAD_NI
+  oc_rad_ni = V_SCALE_OC_RAD_NI  ! V_SCALE_OC_RAD_NI
+  du_rad_ni = V_SCALE_DU_RAD_NI  ! V_SCALE_DU_RAD_NI
   prop_fire_in_pbl_p1 = V_PROP_FIRE_IN_PBL_P1  ! V_PROP_FIRE_IN_PBL_P1
   prop_fire_in_pbl_p2 = V_PROP_FIRE_IN_PBL_P2  ! V_PROP_FIRE_IN_PBL_P2
   prop_fire_in_pbl = V_PROP_FIRE_IN_PBL  ! V_PROP_FIRE_IN_PBL
+  pH_PERT = V_SCALE_PH_PERT  ! V_SCALE_PH_PERT 
   scale_so4_coating = V_SCALE_SO4_COATING  ! V_SCALE_SO4_COATING
   scale_tr_entrainment = V_SCALE_TR_ENTRAINMENT  ! V_SCALE_TR_ENTRAINMENT
   scale_vertical_velocity = V_SCALE_VERTICAL_VELOCITY  ! V_SCALE_VERTICAL_VELOCITY
